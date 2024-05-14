@@ -1,6 +1,12 @@
 [package]
-name = "bedrockk"
+name = "bedrock"
 version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+logos = "0.14.0"
+regex = "1.10.4"
+
+[[bin]]
+name = "bedrock"
+path = "src/main.rs"
